@@ -1,0 +1,108 @@
+body {
+  font-family: SimHei, 'Helvetica Neue', Arial, 'Droid Sans', sans-serif;
+  font-size: 14px;
+  color: #333;
+  background: #fff;
+}
+
+a,
+a.link {
+  color: #666;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a,
+a.link:hover {
+  color: #666;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+.welcome {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.welcome img {
+  width: 100%;
+}
+
+.login-inp {
+  margin: 10px 30px 15px 30px;
+  border-bottom: 1px solid #bababa;
+}
+
+.login-inp1 {
+  margin: 10px 30px 15px 30px;
+  height: 35px;
+  border: 1px solid #333;
+  text-align: center;
+  line-height: 35px;
+  background: #333;
+}
+
+.login-inp1 a {
+  color: #fff;
+}
+
+.login-inp label {
+  width: 4em;
+  text-align: center;
+  display: inline-block;
+  color: #333;
+}
+
+.login-inp input {
+  line-height: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  z-index: 100;
+}
+
+.login-inp input::-webkit-input-placeholder {
+  /* placeholder颜色  */
+  color: #d3d3d3;
+  /* placeholder字体大小  */
+  font-size: 14px;
+  /* placeholder位置  */
+}
+
+.login-inp a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  color: #333;
+  font-size: 16px;
+  letter-spacing: 5px;
+}
+
+.login-txt {
+  text-align: center;
+  color: #333;
+  font-size: 12px;
+  height: 20px;
+}
+
+.login-txt a {
+  color: #333;
+  padding: 0 5px;
+}
+
+.grant {
+  margin: 0 auto;
+  position: relative;
+  bottom: -150px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}

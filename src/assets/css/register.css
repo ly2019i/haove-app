@@ -1,0 +1,79 @@
+body {
+    font-family: SimHei, 'Helvetica Neue', Arial, 'Droid Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    background: #fff;
+}
+
+a,
+a.link {
+    color: #666;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a,
+a.link:hover {
+    color: #666;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+.data1 {
+    padding: 0 10px;
+}
+
+.photo {
+    display: flex;
+    padding: 10px 15px;
+}
+
+.photo span {
+    line-height: 50px;
+}
+
+
+.avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 25px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin-left: 35px;
+}
+
+.avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+}
+
+.avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.btnregister {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}

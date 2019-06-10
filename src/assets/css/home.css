@@ -1,0 +1,244 @@
+body {
+  font-family: SimHei, 'Helvetica Neue', Arial, 'Droid Sans', sans-serif;
+  font-size: 14px;
+  color: #333;
+  background: #fff;
+}
+
+a,
+a.link {
+  color: #666;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a,
+a.link:hover {
+  color: #666;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+.home {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.banner img {
+  width: 100%;
+  height: 170px;
+}
+
+.nav {
+  padding: 0 10px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav figure {
+  width: 25%;
+  text-align: center;
+  height: 55px;
+  line-height: 23px;
+}
+
+i[class^='icon'] {
+  color: #faa850;
+}
+
+.Sellwell {
+  padding: 0 10px;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+
+.sell {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 7px;
+  position: relative;
+}
+
+.more {
+  position: absolute;
+  font-size: 13px;
+  letter-spacing: normal;
+  color: #666;
+  right: 0;
+  font-weight: normal;
+  top: 10%;
+}
+
+.hot {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 12px;
+  color: #666;
+}
+
+.hotlist {
+  padding: 0 10px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  display: flex;
+  overflow: auto;
+}
+
+.for h3 {
+  width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 7px 0;
+}
+
+.for {
+  position: relative;
+  width: 170px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.img {
+  width: 140px;
+  margin: 0 auto;
+}
+
+.HOT {
+  position: absolute;
+  width: 30px;
+  height: 13px;
+  background: red;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+.cover-img {
+  width: 100%;
+  height: 130px;
+}
+
+.descriptions {
+  width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #bfbfbf;
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+
+.price {
+  width: 140px;
+  color: red;
+  font-weight: 600;
+}
+
+.Date {
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.date {
+  width: 24px;
+  height: 24px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 24px;
+}
+
+.Discount {
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.zhuozi {
+  width: 49%;
+}
+
+.zhuozi img {
+  width: 100%;
+}
+
+.hua {
+  width: 48%;
+}
+
+.hua img {
+  width: 100%;
+}
+
+.custom-indicator {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background: rgba(77, 77, 77, 0.5);
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 5px;
+}
+
+.products {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.for1 {
+  display: flex;
+  margin: 5px 0;
+  box-shadow: 3px 3px 3px #f1f1f1;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.img1 {
+  width: 100px;
+  height: 100px;
+}
+
+.cover-img1 {
+  width: 100px;
+  height: 100px;
+}
+
+.idxinxi h3 {
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin: 7px 0;
+}
+
+.descriptions1 {
+  box-sizing: border-box;
+  padding: 0 10px;
+  color: #bfbfbf;
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+
+.price1 {
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 180px;
+  color: red;
+  font-weight: 600;
+}

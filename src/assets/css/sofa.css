@@ -1,0 +1,57 @@
+body {
+  font-family: SimHei, 'Helvetica Neue', Arial, 'Droid Sans', sans-serif;
+  font-size: 14px;
+  color: #333;
+  background: #fff;
+}
+
+a,
+a.link {
+  color: #666;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a,
+a.link:hover {
+  color: #666;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+.nav1 {
+  padding: 0 10px;
+}
+
+.products1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.for2 {
+  width: 49%;
+  padding: 5px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 3px #f1f1f1, -1px 3px 5px #f1f1f1;
+  ;
+  margin: 5px 0;
+}
+
+.cover-img2 {
+  width: 100%;
+  height: 160px;
+}
+
+.img2 {
+  width: 100%;
+}
