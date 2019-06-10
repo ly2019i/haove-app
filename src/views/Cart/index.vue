@@ -82,6 +82,7 @@ export default {
       return sumPrice * 100
     },
   },
+  inject: ['reload'],
   methods: {
     // 点击全选按钮
     checkAll() {
@@ -114,6 +115,7 @@ export default {
         this.isShow = true
       }
     },
+
     clearCart() {
       this.list.forEach(item => {
         if (item.checked) {
@@ -123,7 +125,7 @@ export default {
             },
           }).then(res => {
             console.log(res)
-            window.location.reload()
+            this.reload()
           })
         }
       })

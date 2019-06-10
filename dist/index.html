@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=/favicon.ico><title>vue-haowu-app</title><style>html,
+    body {
+      height: 100%;
+    }</style><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><script>window.onload = function () {
+      /*720代表设计师给的设计稿的宽度，你的设计稿是多少，就写多少;100代表换算比例，这里写100是
+                        为了以后好算,比如，你测量的一个宽度是100px,就可以写为1rem,以及1px=0.01rem等等*/
+      getRem(750, 100)
+    };
+    window.onresize = function () {
+      getRem(750, 100)
+    };
+
+    function getRem(pwidth, prem) {
+      var html = document.getElementsByTagName("html")[0];
+      var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+      html.style.fontSize = oWidth / pwidth * prem + "px";
+    }</script><link href=//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css rel=stylesheet><link href=/css/chunk-0384f2d8.30619a9d.css rel=prefetch><link href=/css/chunk-1041590e.c8251899.css rel=prefetch><link href=/css/chunk-1d246cb3.2f2cf686.css rel=prefetch><link href=/css/chunk-25a345b8.2814a6cc.css rel=prefetch><link href=/css/chunk-39ba7f50.cf3ff193.css rel=prefetch><link href=/css/chunk-3a7d6984.0168936e.css rel=prefetch><link href=/css/chunk-58cc987e.d8b3e949.css rel=prefetch><link href=/css/chunk-5bd63989.a8ccca8e.css rel=prefetch><link href=/js/chunk-0384f2d8.a6e84214.js rel=prefetch><link href=/js/chunk-1041590e.e787af4c.js rel=prefetch><link href=/js/chunk-1d246cb3.5cdda549.js rel=prefetch><link href=/js/chunk-25a345b8.eac741f2.js rel=prefetch><link href=/js/chunk-39ba7f50.00d4414b.js rel=prefetch><link href=/js/chunk-3a7d6984.97e39192.js rel=prefetch><link href=/js/chunk-58cc987e.8858d34d.js rel=prefetch><link href=/js/chunk-5bd63989.754e661d.js rel=prefetch><link href=/css/app.9b5293e0.css rel=preload as=style><link href=/css/chunk-vendors.99fb5de0.css rel=preload as=style><link href=/js/app.0b17e957.js rel=preload as=script><link href=/js/chunk-vendors.e93da33d.js rel=preload as=script><link href=/css/chunk-vendors.99fb5de0.css rel=stylesheet><link href=/css/app.9b5293e0.css rel=stylesheet></head><body><div id=app></div><script src=/js/chunk-vendors.e93da33d.js></script><script src=/js/app.0b17e957.js></script></body></html>

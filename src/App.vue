@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <section>
-      <router-view></router-view>
+      <router-view v-if="isRouterShow"></router-view>
     </section>
     <foo></foo>
   </div>
@@ -10,9 +10,26 @@
 import foo from './views/text/footer'
 export default {
   name: 'app',
-
   components: {
     foo,
+  },
+  provide() {
+    return {
+      reload: this.reload,
+    }
+  },
+  data() {
+    return {
+      isRouterShow: true,
+    }
+  },
+  methods: {
+    reload() {
+      this.isRouterShow = false
+      this.$nextTick(function() {
+        this.isRouterShow = true
+      })
+    },
   },
 }
 </script>

@@ -83,8 +83,8 @@ export default {
     this.getOrderList()
   },
   methods: {
-    async getOrderList() {
-      await get('/api/v1/orders', {
+    getOrderList() {
+      get('/api/v1/orders', {
         headers: {
           authorization: `Bearer ${localStorage.getItem('token')}`,
         },
@@ -96,6 +96,16 @@ export default {
         this.no = this.orders[0].no
       })
     },
+    getOrderById(id) {
+      get('/api/v1/orders/' + id, {
+        headers: {
+          authorization: `Bearer ${localStorage.getItem('token')}`,
+        },
+      }).then(res => {
+        console.log(res.data)
+        this.products = res.data.details
+      })
+    },
     dizhi() {
       this.$router.push({
         name: 'address',
@@ -103,15 +113,6 @@ export default {
     },
     sorry() {
       this.showBase = true
-    },
-    getOrderById(id) {
-      get('/api/v1/orders/' + id, {
-        headers: {
-          authorization: `Bearer ${localStorage.getItem('token')}`,
-        },
-      }).then(res => {
-        this.products = res.data.details
-      })
     },
     onClickLeft() {
       this.$router.go(-1)
