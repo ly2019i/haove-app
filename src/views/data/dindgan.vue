@@ -52,6 +52,7 @@ export default {
   created() {
     this.getOrderList()
   },
+  inject: ['reload'],
   methods: {
     async getOrderList() {
       await get('/api/v1/orders', {
@@ -97,6 +98,7 @@ export default {
         this.$toast({
           message: '删除成功',
         })
+        this.reload()
       })
     },
     xiangqing(id) {
